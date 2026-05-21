@@ -1,0 +1,126 @@
+{
+  "theme": "dark",
+  "archetype": "Archetype 4 (Swiss & High-Contrast) adapted for Modern Dark Tech",
+  "reasoning": "A dark tech portfolio should convey precision, modern engineering, and aesthetic sophistication. We are using deep obsidian bases with high-contrast off-white typography and a Neon Amber accent for a refined, 'terminal meets luxury' feel. This avoids generic SaaS aesthetics while feeling distinctly developer-focused.",
+  "colors": {
+    "background_primary": "#050505",
+    "background_secondary": "#0C0C0C",
+    "background_tertiary": "#141414",
+    "text_primary": "#F4F4F5",
+    "text_secondary": "#A1A1AA",
+    "accent_primary": "#FFB000",
+    "accent_hover": "#E59E00",
+    "border_color": "#27272A",
+    "glass_bg": "rgba(20, 20, 20, 0.7)",
+    "glass_border": "rgba(255, 255, 255, 0.1)"
+  },
+  "typography": {
+    "heading_font": "Outfit",
+    "body_font": "IBM Plex Sans",
+    "mono_font": "JetBrains Mono",
+    "scale": {
+      "h1": "text-5xl sm:text-6xl tracking-tight font-black",
+      "h2": "text-3xl sm:text-4xl tracking-tight font-bold",
+      "h3": "text-xl sm:text-2xl font-semibold",
+      "h4": "text-lg sm:text-xl font-medium",
+      "body": "text-base leading-relaxed",
+      "label": "text-xs uppercase tracking-[0.2em] font-mono text-secondary"
+    }
+  },
+  "layout_and_spacing": {
+    "philosophy": "Generous spacing. Use p-8 to p-16 for main sections. Bento grids for secondary content.",
+    "container": "max-w-7xl mx-auto px-6 md:px-12",
+    "section_gap": "py-24 md:py-32",
+    "grid_bento": "grid grid-cols-1 md:grid-cols-12 gap-6",
+    "border_radius": "rounded-none md:rounded-lg"
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-accent_primary text-black font-semibold px-6 py-3 transition-transform hover:-translate-y-1 hover:shadow-[0_0_15px_rgba(255,176,0,0.4)]",
+      "secondary": "bg-transparent border border-border_color text-text_primary px-6 py-3 transition-colors hover:border-accent_primary hover:text-accent_primary font-mono text-sm uppercase tracking-wider"
+    },
+    "cards": {
+      "default": "bg-background_secondary border border-border_color p-6 md:p-8 hover:border-glass_border transition-all duration-300 group",
+      "interactive": "hover:-translate-y-1 hover:shadow-2xl hover:shadow-black/50"
+    },
+    "glass_header": "fixed top-0 w-full z-50 bg-black/60 backdrop-blur-xl border-b border-white/10"
+  },
+  "animations": {
+    "hover_state": "transition-all duration-300 ease-out",
+    "entrance": "framer-motion staggered fade-up for lists",
+    "micro_interactions": "Subtle scale on hover, glowing borders on focus"
+  },
+  "icons": {
+    "library": "lucide-react",
+    "style": "stroke-1.5, matching text-secondary or accent color"
+  },
+  "sections_instructions": {
+    "navbar": "Glassmorphism sticky nav. Logo (GG) on left, links center, 'Hire Me' CTA on right.",
+    "hero": "Asymmetric layout. Massive H1 (Outfit). Overline label (JetBrains Mono). 'Available for hire' badge with pulsing Neon Amber dot. Buttons for Contact and Resume. Background: dark glowing mesh.",
+    "about": "Bento grid. Left: Text (Bio, GPA, Dean's list). Right: Developer Portrait with monochrome filter + neon accent border.",
+    "experience": "Minimalist vertical timeline. Large typography for roles, secondary text for dates and descriptions.",
+    "projects": "Bento or Grid layout (2 columns). Large cards with project images. Hover reveals text or expands image slightly. Use tags for tech stack.",
+    "skills": "Terminal-style look. Grouped lists (Languages, Frontend, Backend, Tools). Monospace fonts.",
+    "education_and_certifications": "Grid cards matching Experience style. Clean, structural.",
+    "contact": "Functional form. High-contrast input fields with focus:ring-accent_primary. Minimalist design.",
+    "footer": "Large typography footer. Links to GitHub, LinkedIn, Email."
+  },
+  "media": {
+    "images": [
+      {
+        "slug_name": "hero_bg",
+        "category": "background",
+        "url": "https://static.prod-images.emergentagent.com/jobs/a7131d3b-517f-4c00-a50e-6ba67a915f67/images/a6d22f2cea16db26a54ecfe7c885289e21d66d870e9d2e16a95e470d0fee4f0f.png",
+        "description": "Abstract dark background with neon amber mesh for the hero section."
+      },
+      {
+        "slug_name": "profile_portrait",
+        "category": "portrait",
+        "url": "https://images.unsplash.com/photo-1764545973653-94c40d993495?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1Mjh8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdCUyMGRldmVsb3BlciUyMGRhcmslMjBiYWNrZ3JvdW5kfGVufDB8fHx8MTc3OTQwNzg5OHww&ixlib=rb-4.1.0&q=85",
+        "description": "Portrait of Guillaume Girishya for the About section."
+      },
+      {
+        "slug_name": "bearchat_app",
+        "category": "project",
+        "url": "https://static.prod-images.emergentagent.com/jobs/a7131d3b-517f-4c00-a50e-6ba67a915f67/images/82aa87de860b57ff5d8f4e5e59e36e314e28b74572ef0bb50a805fb43cdcc245.png",
+        "description": "Image for BEARCHAT project."
+      },
+      {
+        "slug_name": "restaurant_app",
+        "category": "project",
+        "url": "https://static.prod-images.emergentagent.com/jobs/a7131d3b-517f-4c00-a50e-6ba67a915f67/images/621f7d4d302709547418a257c0f2da2185fe4a3ba0cfab90aaa17965e557dc06.png",
+        "description": "Image for Full-stack restaurant app project."
+      },
+      {
+        "slug_name": "founderverse_app",
+        "category": "project",
+        "url": "https://static.prod-images.emergentagent.com/jobs/a7131d3b-517f-4c00-a50e-6ba67a915f67/images/8e7c8814941cf3fb6516436e8f96a797be8e9f25dd79b0c13ba918810d2d2e2c.png",
+        "description": "Image for Founderverse project."
+      },
+      {
+        "slug_name": "bear_bank_app",
+        "category": "project",
+        "url": "https://static.prod-images.emergentagent.com/jobs/a7131d3b-517f-4c00-a50e-6ba67a915f67/images/9cf68ded9939c83dadb5ba8959ed14798c4425807712d05edcdc39956ba7e62f.png",
+        "description": "Image for Bear Bank project."
+      },
+      {
+        "slug_name": "microbit_game",
+        "category": "project",
+        "url": "https://static.prod-images.emergentagent.com/jobs/a7131d3b-517f-4c00-a50e-6ba67a915f67/images/52fb1eec6e6a4bde385d03b8940f2e6335c91721c8ef22fe7114a767f25b0523.png",
+        "description": "Image for Micro:bit game project."
+      }
+    ]
+  },
+  "testing": {
+    "requirements": "All interactive elements and key info must have a `data-testid` attribute in kebab-case format (e.g., `data-testid=\"contact-form-submit-button\"`)."
+  },
+  "instructions_to_main_agent": [
+    "Follow the theme strictly: Use Outfit for headings, IBM Plex Sans for body, JetBrains Mono for technical labels/code blocks.",
+    "Do NOT use pure white text; use #F4F4F5. Do NOT use pure black backgrounds; use #050505.",
+    "Implement a bento grid structure where applicable (e.g., About, Projects).",
+    "Make sure the contact form is functional.",
+    "Include all required sections: Hero, About, Experience, Projects, Skills, Education & Cert.",
+    "Use framer-motion for simple staggered reveals and layout transitions.",
+    "For the hero background image, use an overlay (e.g., bg-black/60) to ensure high text legibility."
+  ]
+}
