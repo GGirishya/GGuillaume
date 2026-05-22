@@ -58,7 +58,8 @@ export const PROJECTS = [
     image:
       "https://static.prod-images.emergentagent.com/jobs/a7131d3b-517f-4c00-a50e-6ba67a915f67/images/82aa87de860b57ff5d8f4e5e59e36e314e28b74572ef0bb50a805fb43cdcc245.png",
     github: "https://github.com/GGirishya/BearChat",
-    demo: null,
+    demo: "https://customer-assets.emergentagent.com/job_my-portfolio-893/artifacts/f21pl50i_bearchat%20demo.mp4",
+    demoLabel: "Watch demo",
   },
   {
     title: "Founderverse",
@@ -66,7 +67,7 @@ export const PROJECTS = [
       "Co-founded platform connecting young entrepreneurs with investors — matching, profiles, and pitch flows. Now live.",
     tags: ["Startup", "Product", "Full-stack"],
     image:
-      "https://static.prod-images.emergentagent.com/jobs/a7131d3b-517f-4c00-a50e-6ba67a915f67/images/8e7c8814941cf3fb6516436e8f96a797be8e9f25dd79b0c13ba918810d2d2e2c.png",
+      "https://customer-assets.emergentagent.com/job_my-portfolio-893/artifacts/xsvxefgg_Founderverse.png",
     github: null,
     demo: "https://foundervers.com/",
   },
@@ -76,9 +77,9 @@ export const PROJECTS = [
       "Artist site for an independent singer — landing, music, gallery, and booking. Custom motion and a brand-first look.",
     tags: ["React", "Brand", "Motion"],
     image:
-      "https://static.prod-images.emergentagent.com/jobs/a7131d3b-517f-4c00-a50e-6ba67a915f67/images/621f7d4d302709547418a257c0f2da2185fe4a3ba0cfab90aaa17965e557dc06.png",
+      "https://customer-assets.emergentagent.com/job_my-portfolio-893/artifacts/xbo74aez_jux.png",
     github: "https://github.com/GGirishya/juxprynx",
-    demo: null,
+    demo: "https://ggirishya.github.io/juxprynx/",
   },
   {
     title: "Marriott Homes & Villas",
@@ -86,9 +87,9 @@ export const PROJECTS = [
       "Marketing site collaboration built during my internship — responsive, accessible, and brand-aligned.",
     tags: ["React", "WCAG", "Marketing"],
     image:
-      "https://static.prod-images.emergentagent.com/jobs/a7131d3b-517f-4c00-a50e-6ba67a915f67/images/9cf68ded9939c83dadb5ba8959ed14798c4425807712d05edcdc39956ba7e62f.png",
+      "https://customer-assets.emergentagent.com/job_my-portfolio-893/artifacts/ewrocdek_Mariott.png",
     github: "https://github.com/GGirishya/Mariott-Homes-and-Villas",
-    demo: null,
+    demo: "https://ggirishya.github.io/Mariott-Homes-and-Villas/",
   },
   {
     title: "Netflix Movie Suggestion",
@@ -96,9 +97,9 @@ export const PROJECTS = [
       "A movie-discovery tool with a Netflix-style browse UX — search, filtering, and personalized recommendations.",
     tags: ["JavaScript", "API", "UI"],
     image:
-      "https://static.prod-images.emergentagent.com/jobs/a7131d3b-517f-4c00-a50e-6ba67a915f67/images/52fb1eec6e6a4bde385d03b8940f2e6335c91721c8ef22fe7114a767f25b0523.png",
+      "https://customer-assets.emergentagent.com/job_my-portfolio-893/artifacts/rxyvx0tj_Netflix.png",
     github: "https://github.com/GGirishya/Netflix-Movie-Suggestion",
-    demo: null,
+    demo: "https://ggirishya.github.io/Netflix-Movie-Suggestion/",
   },
 ];
 

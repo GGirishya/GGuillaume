@@ -80,7 +80,7 @@ export default function Projects() {
                           className="inline-flex items-center gap-2 font-mono text-[10px] uppercase tracking-[0.2em] bg-[#FFB000] text-black px-3 py-2 hover:bg-[#E59E00] transition-colors"
                         >
                           <ExternalLink size={12} />
-                          Live site
+                          {p.demoLabel || "Live site"}
                         </a>
                       )}
                       {p.github && (
