@@ -99,6 +99,7 @@ export default function Contact() {
           <form
             onSubmit={onSubmit}
             data-testid="contact-form"
+            noValidate
             className="col-span-12 lg:col-span-7 border border-[#27272A] bg-[#0C0C0C] p-6 md:p-10 space-y-6"
           >
             <Field
