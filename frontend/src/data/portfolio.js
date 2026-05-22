@@ -3,20 +3,21 @@ export const PROFILE = {
   initials: "GG",
   tagline: "Software & Web Developer",
   location: "Charlotte, NC",
-  status: "Available for hire — Class of 2026",
-  bio: "I'm a Computer Science student at Missouri State University, building accessible, well-engineered web products. I care about clean code, thoughtful UX, and shipping things that actually help people.",
+  status: "B.S. Computer Science · 2026 Graduate · Available now",
+  bio: "I'm a Computer Science graduate from Missouri State University, building accessible, well-engineered web products. I care about clean code, thoughtful UX, and shipping things that actually help people.",
   email: "guillaumegirishya@gmail.com",
   phone: "417-429-5731",
   linkedin: "https://www.linkedin.com/in/guillaume-girishya/",
   github: "https://github.com/GGirishya",
   resumeUrl: "https://customer-assets.emergentagent.com/job_a7131d3b-517f-4c00-a50e-6ba67a915f67/artifacts/lvqr1b0x_G%27s%20Resume.pdf",
   portraitUrl:
-    "https://images.unsplash.com/photo-1764545973653-94c40d993495?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1Mjh8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdCUyMGRldmVsb3BlciUyMGRhcmslMjBiYWNrZ3JvdW5kfGVufDB8fHx8MTc3OTQwNzg5OHww&ixlib=rb-4.1.0&q=85",
+    "https://customer-assets.emergentagent.com/job_my-portfolio-893/artifacts/w2rfgtxw_headshot%20%281%29.jpg",
+  workModes: ["Onsite", "Remote", "Hybrid"],
 };
 
 export const STATS = [
   { label: "GPA", value: "3.67" },
-  { label: "Graduating", value: "2026" },
+  { label: "Graduated", value: "2026" },
   { label: "Honors", value: "Dean's List" },
   { label: "Based in", value: "Charlotte, NC" },
 ];
@@ -40,9 +41,9 @@ export const EXPERIENCE = [
     dates: "Summer 2023 — Spring 2026",
     location: "Springfield, MO",
     bullets: [
-      "Mentor 50+ residents per year through academic milestones and community involvement.",
-      "Handle crisis situations with clear communication in group and individual settings.",
-      "Design and lead community programs from small floor activities to building-wide events.",
+      "Mentored 50+ residents per year through academic milestones and community involvement.",
+      "Handled crisis situations with clear communication in group and individual settings.",
+      "Designed and led community programs from small floor activities to building-wide events.",
     ],
     tags: ["Leadership", "Communication", "Crisis Mgmt"],
   },
@@ -56,39 +57,48 @@ export const PROJECTS = [
     tags: ["LLM", "Fine-tuning", "Python", "RAG"],
     image:
       "https://static.prod-images.emergentagent.com/jobs/a7131d3b-517f-4c00-a50e-6ba67a915f67/images/82aa87de860b57ff5d8f4e5e59e36e314e28b74572ef0bb50a805fb43cdcc245.png",
-    accent: true,
+    github: "https://github.com/GGirishya/BearChat",
+    demo: null,
   },
   {
     title: "Founderverse",
     blurb:
-      "Co-founded platform connecting young entrepreneurs with investors — matching, profiles, and pitch flows.",
+      "Co-founded platform connecting young entrepreneurs with investors — matching, profiles, and pitch flows. Now live.",
     tags: ["Startup", "Product", "Full-stack"],
     image:
       "https://static.prod-images.emergentagent.com/jobs/a7131d3b-517f-4c00-a50e-6ba67a915f67/images/8e7c8814941cf3fb6516436e8f96a797be8e9f25dd79b0c13ba918810d2d2e2c.png",
+    github: null,
+    demo: "https://foundervers.com/",
   },
   {
-    title: "Restaurant Platform",
+    title: "Juxprynx — Singer Website",
     blurb:
-      "Full-stack restaurant web app with reservations and menu management. React, Node, Express, MongoDB.",
-    tags: ["React", "Node", "Express", "MongoDB"],
+      "Artist site for an independent singer — landing, music, gallery, and booking. Custom motion and a brand-first look.",
+    tags: ["React", "Brand", "Motion"],
     image:
       "https://static.prod-images.emergentagent.com/jobs/a7131d3b-517f-4c00-a50e-6ba67a915f67/images/621f7d4d302709547418a257c0f2da2185fe4a3ba0cfab90aaa17965e557dc06.png",
+    github: "https://github.com/GGirishya/juxprynx",
+    demo: null,
   },
   {
-    title: "Bear Bank",
+    title: "Marriott Homes & Villas",
     blurb:
-      "Banking program prototype implementing core services common to consumer banks — accounts, transfers, statements.",
-    tags: ["Java", "OOP", "Systems"],
+      "Marketing site collaboration built during my internship — responsive, accessible, and brand-aligned.",
+    tags: ["React", "WCAG", "Marketing"],
     image:
       "https://static.prod-images.emergentagent.com/jobs/a7131d3b-517f-4c00-a50e-6ba67a915f67/images/9cf68ded9939c83dadb5ba8959ed14798c4425807712d05edcdc39956ba7e62f.png",
+    github: "https://github.com/GGirishya/Mariott-Homes-and-Villas",
+    demo: null,
   },
   {
-    title: "Micro:bit Chooser Game",
+    title: "Netflix Movie Suggestion",
     blurb:
-      "Python-based interactive game running on the BBC micro:bit — input handling, sensors, and game loop.",
-    tags: ["Python", "Hardware", "Embedded"],
+      "A movie-discovery tool with a Netflix-style browse UX — search, filtering, and personalized recommendations.",
+    tags: ["JavaScript", "API", "UI"],
     image:
       "https://static.prod-images.emergentagent.com/jobs/a7131d3b-517f-4c00-a50e-6ba67a915f67/images/52fb1eec6e6a4bde385d03b8940f2e6335c91721c8ef22fe7114a767f25b0523.png",
+    github: "https://github.com/GGirishya/Netflix-Movie-Suggestion",
+    demo: null,
   },
 ];
 
@@ -116,7 +126,7 @@ export const EDUCATION = {
   degree: "B.S. Computer Science",
   minors: "Minors: Information Technology, Cybersecurity & Mathematics",
   location: "Springfield, MO",
-  graduation: "Class of 2026",
+  graduation: "Class of 2026 · Graduated",
   gpa: "3.67 GPA · Dean's List",
 };
 

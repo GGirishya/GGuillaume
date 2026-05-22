@@ -54,9 +54,10 @@ export default function Hero() {
               className="mt-8 max-w-2xl text-lg md:text-xl text-[#A1A1AA] leading-relaxed animate-fade-up"
               style={{ animationDelay: "0.2s" }}
             >
-              Computer Science student & software developer building accessible,
-              well-engineered web products. Currently graduating spring 2026 and
-              <span className="text-[#F4F4F5]"> open to full-time roles</span>.
+              Computer Science graduate & software developer building accessible,
+              well-engineered web products.{" "}
+              <span className="text-[#F4F4F5]">Available now</span> for full-time
+              roles — onsite, remote, or hybrid.
             </p>
 
             <div
@@ -95,7 +96,7 @@ export default function Hero() {
                   Currently
                 </p>
                 <p className="text-[#F4F4F5]">
-                  Final-year CS @{" "}
+                  CS Graduate · B.S. from{" "}
                   <span className="text-[#FFB000]">Missouri State</span>
                 </p>
               </div>
@@ -106,6 +107,14 @@ export default function Hero() {
                 <p className="text-[#F4F4F5] inline-flex items-center gap-2">
                   <MapPin size={14} className="text-[#FFB000]" />
                   {PROFILE.location}
+                </p>
+              </div>
+              <div>
+                <p className="font-mono text-[10px] uppercase tracking-[0.22em] text-[#71717A] mb-2">
+                  Work mode
+                </p>
+                <p className="text-[#F4F4F5]">
+                  Onsite · Remote · Hybrid
                 </p>
               </div>
               <div>

@@ -89,9 +89,21 @@ export default function Contact() {
                 Availability
               </p>
               <p className="text-[#F4F4F5]">
-                Open to <span className="text-[#FFB000]">full-time SWE / front-end</span>{" "}
-                roles starting May 2026. Also down for summer 2025 freelance.
+                Recently graduated — open to{" "}
+                <span className="text-[#FFB000]">full-time SWE / front-end</span>{" "}
+                roles, and freelance projects.
               </p>
+              <div className="mt-4 flex flex-wrap gap-2">
+                {PROFILE.workModes.map((m) => (
+                  <span
+                    key={m}
+                    data-testid={`work-mode-${m.toLowerCase()}`}
+                    className="font-mono text-[10px] uppercase tracking-[0.22em] text-[#F4F4F5] border border-[#27272A] px-2.5 py-1"
+                  >
+                    {m}
+                  </span>
+                ))}
+              </div>
             </div>
           </div>
 

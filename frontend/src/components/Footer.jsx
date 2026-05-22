@@ -13,9 +13,9 @@ export default function Footer() {
           Let's <span className="text-[#FFB000]">work together.</span>
         </h3>
         <p className="mt-6 max-w-2xl text-[#A1A1AA] text-base md:text-lg">
-          Open to full-time roles for Class of 2026, freelance gigs, and
-          collaborations. The fastest way to reach me is the form above or a
-          direct email.
+          Recently graduated and open to full-time roles, freelance gigs, and
+          collaborations — onsite, remote, or hybrid. The fastest way to reach
+          me is the form above or a direct email.
         </p>
 
         <div className="mt-14 grid grid-cols-12 gap-6 items-end border-t border-[#27272A] pt-10">
