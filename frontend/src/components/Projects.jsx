@@ -1,7 +1,7 @@
 import React from "react";
 import SectionHeading from "./SectionHeading";
 import { PROJECTS } from "../data/portfolio";
-import { ArrowUpRight, Github, ExternalLink } from "lucide-react";
+import { ArrowUpRight, Github, ExternalLink, Sparkles } from "lucide-react";
 
 export default function Projects() {
   return (
@@ -27,21 +27,47 @@ export default function Projects() {
               <article
                 key={p.title}
                 data-testid={`project-card-${i}`}
-                className={`${span} group relative bg-[#0C0C0C] border border-[#27272A] hover:border-[#FFB000]/60 transition-all duration-300 overflow-hidden flex flex-col`}
+                className={`${span} group relative bg-[#0C0C0C] border ${
+                  p.featured ? "border-[#FFB000]/40" : "border-[#27272A]"
+                } hover:border-[#FFB000]/70 transition-all duration-300 overflow-hidden flex flex-col`}
               >
+                {p.featured && (
+                  <div
+                    data-testid={`project-${i}-featured-ribbon`}
+                    className="absolute top-4 left-4 z-10 inline-flex items-center gap-1.5 bg-[#FFB000] text-black font-mono text-[10px] uppercase tracking-[0.2em] px-2.5 py-1.5 shadow-[0_0_18px_rgba(255,176,0,0.45)]"
+                  >
+                    <Sparkles size={11} strokeWidth={2.5} />
+                    Featured
+                  </div>
+                )}
+
                 <a
                   href={primaryHref || undefined}
                   target={primaryHref ? "_blank" : undefined}
                   rel="noreferrer"
                   aria-label={p.title}
-                  className="img-zoom aspect-[16/10] bg-[#141414] overflow-hidden border-b border-[#27272A] block"
+                  className="img-zoom aspect-[16/10] bg-[#141414] overflow-hidden border-b border-[#27272A] block relative"
                 >
-                  <img
-                    src={p.image}
-                    alt={p.title}
-                    loading="lazy"
-                    className="w-full h-full object-cover opacity-90 group-hover:opacity-100"
-                  />
+                  {p.video ? (
+                    <video
+                      data-testid={`project-${i}-inline-video`}
+                      src={p.video}
+                      poster={p.image}
+                      autoPlay
+                      muted
+                      loop
+                      playsInline
+                      preload="metadata"
+                      className="w-full h-full object-cover opacity-95 group-hover:opacity-100"
+                    />
+                  ) : (
+                    <img
+                      src={p.image}
+                      alt={p.title}
+                      loading="lazy"
+                      className="w-full h-full object-cover opacity-90 group-hover:opacity-100"
+                    />
+                  )}
                 </a>
                 <div className="p-6 md:p-8 flex flex-col flex-1">
                   <div className="flex items-start justify-between gap-3">

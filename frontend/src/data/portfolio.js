@@ -51,17 +51,6 @@ export const EXPERIENCE = [
 
 export const PROJECTS = [
   {
-    title: "BEARCHAT",
-    blurb:
-      "A fine-tuned AI agent built for Missouri State students that delivers personalized answers to campus questions.",
-    tags: ["LLM", "Fine-tuning", "Python", "RAG"],
-    image:
-      "https://static.prod-images.emergentagent.com/jobs/a7131d3b-517f-4c00-a50e-6ba67a915f67/images/82aa87de860b57ff5d8f4e5e59e36e314e28b74572ef0bb50a805fb43cdcc245.png",
-    github: "https://github.com/GGirishya/BearChat",
-    demo: "https://customer-assets.emergentagent.com/job_my-portfolio-893/artifacts/f21pl50i_bearchat%20demo.mp4",
-    demoLabel: "Watch demo",
-  },
-  {
     title: "Founderverse",
     blurb:
       "Co-founded platform connecting young entrepreneurs with investors — matching, profiles, and pitch flows. Now live.",
@@ -70,6 +59,7 @@ export const PROJECTS = [
       "https://customer-assets.emergentagent.com/job_my-portfolio-893/artifacts/xsvxefgg_Founderverse.png",
     github: null,
     demo: "https://foundervers.com/",
+    featured: true,
   },
   {
     title: "Juxprynx — Singer Website",
@@ -80,6 +70,20 @@ export const PROJECTS = [
       "https://customer-assets.emergentagent.com/job_my-portfolio-893/artifacts/xbo74aez_jux.png",
     github: "https://github.com/GGirishya/juxprynx",
     demo: "https://ggirishya.github.io/juxprynx/",
+    featured: true,
+  },
+  {
+    title: "BEARCHAT",
+    blurb:
+      "A fine-tuned AI agent built for Missouri State students that delivers personalized answers to campus questions.",
+    tags: ["LLM", "Fine-tuning", "Python", "RAG"],
+    image:
+      "https://static.prod-images.emergentagent.com/jobs/a7131d3b-517f-4c00-a50e-6ba67a915f67/images/82aa87de860b57ff5d8f4e5e59e36e314e28b74572ef0bb50a805fb43cdcc245.png",
+    video:
+      "https://customer-assets.emergentagent.com/job_my-portfolio-893/artifacts/f21pl50i_bearchat%20demo.mp4",
+    github: "https://github.com/GGirishya/BearChat",
+    demo: "https://customer-assets.emergentagent.com/job_my-portfolio-893/artifacts/f21pl50i_bearchat%20demo.mp4",
+    demoLabel: "Fullscreen demo",
   },
   {
     title: "Marriott Homes & Villas",
